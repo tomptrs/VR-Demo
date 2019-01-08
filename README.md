@@ -14,13 +14,13 @@ Wat je gaat doen:
 
 ## Garmin Virb Camera
 
-![alt text](images/garminvirb.jpg)
+![alt text](images/garminvirb.jpg| width=200)
 
 ## Opname
 
 Neem de Garmin Virb camera, en plaats deze in de wereld:
 
-![alt text](images/garminvirbInWereld.jpg =200x200)
+![alt text](images/garminvirbInWereld.jpg)
   
 Om een opname te starten installeer je de Garmin VIRB app op je smartphone, of je neemt de video als volgt op:
  
