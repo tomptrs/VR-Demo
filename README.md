@@ -7,7 +7,7 @@ Deze VR demo laat ons enkele mogelijkheden zien hoe je een 360° verhaal technis
 Wat je gaat doen:
 - Maak een 360 video van je eigen wereld
 - Stap zelf in je eigen wereld door middel van de 360 green room
-- Maak een interactie, en spring van de reële wereld in de virtuele wereld
+- Spring van de reële wereld in de virtuele wereld
 
 
 # Maak een 360 video van je eigen wereld
@@ -25,6 +25,11 @@ Om een opname te starten installeer je de Garmin VIRB app op je smartphone, of j
 - Plaats de opnameschakelaar naar achteren om de video-opname te stoppen.
 - De video wordt op de geheugenkaart opgeslagen als .mp4-bestand.  
 
+## Bekijk de video
+
+- Plaats het geheugenkaartje in de PC, en kopieer de video naar de HD
+- Open GoPro VR player 
+- drag & drop je video naar de GoPro VR Player en bekijk de video met de HTC VIVE VR Set
 
 
 
