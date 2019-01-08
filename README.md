@@ -57,6 +57,9 @@ Door in de de program pane op de play knop te drukken speel je je video in Adobe
 
 Adobe Premiere Pro heeft enkele tools ter beschikking om je "green" uit je video te verwijderen. Te vinden in de effecten tab (onder video effects (media browser pane)). Er is zowel color key , als Ultra key. Ultra Key is degene die we gaan gebruiken.
 
+
+![alt text](images/keying.jpg)
+
 ### Stappenplan om de Ultra key te gebruiken:
 	
 	1. drag & drop de Ultra key op je video bestand van de timeline
