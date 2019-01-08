@@ -33,7 +33,7 @@ Om een opname te starten installeer je de Garmin VIRB app op je smartphone, of j
 
 - Plaats het geheugenkaartje in de PC, en kopieer de video naar de HD
 - Open GoPro VR player 
-- drag & drop je video naar de GoPro VR Player en bekijk de video met de HTC VIVE VR Set
+- drag & drop je video naar de GoPro VR Player en bekijk de video met de HTC VIVE VR Set.
 
 
 # Stap zelf in je eigen wereld door middel van de 360 green room
@@ -68,10 +68,18 @@ Adobe Premiere Pro heeft enkele tools ter beschikking om je "green" uit je video
 
 TIP:
 
-Je kan misschien een beter resultaat bekomen door slechts een deel van je 360° footage te gebruiken. Dit kan met behulp van een masker, en in dat masker dat je ultra key effect te gebruiken.
+Je kan misschien een beter resultaat bekomen door slechts een deel van je 360° footage te gebruiken. Dit kan met behulp van een masker, en in dat masker dat je ultra key effect te gebruiken. Je kan zelfs meerdere maskers maken!
 
 Hoe een "masker" maken:
 https://helpx.adobe.com/premiere-pro/using/masking-tracking.html
 
+Als je green key uit je footage is verwijderd dan drag en drop je je video van je wereld in de timeline (je green key video staat bovenaan), en test je de video in VR mode
 
+![alt text](images/premiereTimeline.jpg)
+
+Daarna exporteer je je video en bekijk je deze in de GoProVR player met de HTC Vive VR set.
+
+![alt text](images/resultaat.png)
+
+# Spring van de reële wereld in de virtuele wereld
 
