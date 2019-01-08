@@ -79,7 +79,7 @@ Als je green key uit je footage is verwijderd dan drag en drop je je video van j
 
 Daarna exporteer je je video en bekijk je deze in de GoProVR player met de HTC Vive VR set.
 
-![alt text](images/resultaat.png)
+![alt text](images/resultaat.PNG)
 
 # Spring van de reële wereld in de virtuele wereld
 
