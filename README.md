@@ -14,7 +14,7 @@ Wat je gaat doen:
 
 ## Garmin Virb Camera
 
-![alt text](images/garminvirb.jpg width="200" height="200" )
+![alt text](images/garminvirb.jpg){:height="200px" width="200px"}
 
 ## Opname
 
