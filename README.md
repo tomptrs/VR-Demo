@@ -86,3 +86,69 @@ Daarna exporteer je je video en bekijk je deze in de GoProVR player met de HTC V
 
 # Spring van de reële wereld in de virtuele wereld
 
+Stappenplan Unity:
+
+- Verwijder de standaard camera
+- Voeg SteamVR plugin toe (via asset store)
+- Voeg via steamvr > core >Prefabs > Player toe aan je scene
+- Maak een nieuw materiaal aan (rechtermuisknop scene > create material)
+    * De settings zijn:
+     - shader : skybox/Panaramic
+- Maak een nieuw texture aan (de afmetingen (dimensions) zijn dezelfde als die van je opgenomen film)
+- ga terug naar je material en sleep je texture erin
+- Maak in je scene een video player aan, en voeg je video eraan toe + sleep je texture naar de video player
+- Ga naar windows > rendering > lighting settings en het skybox materiaal moet nu je zelf gemaakte materiaal zijn.
+- Speel je unity scene af.
+
+## Input control
+
+Als je de controller gebruikt, kan je na vb. een klik van video veranderen. Op die manier spring je van de reële wereld in de virtuele wereld :-).
+
+- Voeg een nieuw empty game object toe in de scene
+- voeg een nieuw "empty" script toe
+- dubbel klik op het script en copy paste onderstaande code:
+
+## Input Script
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Video;
+using Valve.VR;
+using Valve.VR.InteractionSystem;
+
+public class changeVideo : MonoBehaviour
+{
+    public SteamVR_Action_Boolean steamVR_Action;
+    public VideoPlayer video;
+
+    public Hand hand;
+
+  
+
+    private void OnEnable()
+    {
+        if (hand == null)
+            hand = this.GetComponent<Hand>();
+
+        steamVR_Action.AddOnStateDownListener(Down, hand.handType);
+    }
+
+    private void Down(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        video.url = "C:\\Users\\eaict\\Desktop\\Secundair\\Test1\\Assets\\Scenes\\2.mp4";
+        Debug.Log($"Clicked button");
+    }
+}
+
+
+```
+
+Daarna klik je op je empty object en stel je volgende settings in:
+
+- Steam VR action: \actions\default\in\GrabPinch
+- Video: je video player
+- Hand : left hand o right hand van de player
+
+
