@@ -76,6 +76,8 @@ Je kan misschien een beter resultaat bekomen door slechts een deel van je 360° 
 Hoe een "masker" maken:
 https://helpx.adobe.com/premiere-pro/using/masking-tracking.html
 
+(Via cropping tool => filter > video > transform > cropping . Daarna left eigenschap gebruiken)
+
 Als je green key uit je footage is verwijderd dan drag en drop je je video van je wereld in de timeline (je green key video staat bovenaan), en test je de video in VR mode
 
 ![alt text](images/premiereTimeline.jpg)
