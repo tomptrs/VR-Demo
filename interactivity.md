@@ -36,3 +36,7 @@ so your transform of your controller is relative
 => now because you added the throwable script, your cube has a rigidbody (the fysics from unity), so it adds gravity to your object. If you
 start the application, your cube will fall. To prevent this you need to add a plane to your scene (without a rigidbody), so your 
 object will nog fall anymore.
+
+## options
+
+if you go to player  > lefthand in your scene, you can change the action script yourself.
