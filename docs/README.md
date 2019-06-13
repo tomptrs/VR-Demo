@@ -31,6 +31,6 @@ the user’s attention without forcing a story on them. Many other challenges so
 - What to do when the user doesn’t look to the proper direction
 - How and when to apply changes in the videos without the user seeing them
 - Apply proper sounds to the story which improves the immersion of the story
-- ...
+
 
 
