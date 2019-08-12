@@ -2,113 +2,112 @@
 
 # Overview
 
-Deze VR demo laat ons enkele mogelijkheden zien hoe je een 360° verhaal technisch kan opzetten.
+This VR demo shows us some possibilities how you can technically set up a 360 ° story.
 
-Wat je gaat doen:
-- Maak een 360 video van je eigen wereld
-- Stap zelf in je eigen wereld door middel van de 360 green room
-- Spring van de reële wereld in de virtuele wereld
+What you are going to do:
+- Make a 360 video of your own world
+- Step into your own world through the 360 ​​green room
+- Jump from the real world into the virtual world
 
 
-# Maak een 360 video van je eigen wereld
+# Make a 360° video of your own world
 
 ## Garmin Virb Camera
 
 ![alt text](images/garminvirb.jpg)
 
-## Opname
+## Recording
 
-Neem de Garmin Virb camera, en plaats deze in de wereld:
+Take the Garmin Virb camera and set it up into your world:
 
 ![alt text](images/garminvirbInWereld.jpg)
   
-Om een opname te starten installeer je de Garmin VIRB app op je smartphone, of je neemt de video als volgt op:
+To start a recording, install the Garmin VIRB app on your smartphone, or record the video as follows:
  
-- Plaats de opnameschakelaar naar voren om de video-opname te starten.
-- Als het toestel is uitgeschakeld, wordt het nu automatisch ingeschakeld. Het toestel begint direct met het maken van video-opnamen en het rode lampje gaat aan.
-- Plaats de opnameschakelaar naar achteren om de video-opname te stoppen.
-- De video wordt op de geheugenkaart opgeslagen als .mp4-bestand.  
+- Move the recording switch forward to start video recording.
+- If the device is switched off, it is now switched on automatically. The device starts making video recordings immediately and the red light comes on.
+- Set the recording switch to the rear to stop video recording.
+- The video is saved on the memory card as an .mp4 file.
 
-## Bekijk de video
+## Check your video
 
-- Plaats het geheugenkaartje in de PC, en kopieer de video naar de HD
-- Open GoPro VR player 
-- drag & drop je video naar de GoPro VR Player en bekijk de video met de HTC VIVE VR Set.
+- Insert the memory card in the PC, and copy the video to the HD
+- Open GoPro VR player
+- drag & drop your video to the GoPro VR Player and view the video with the HTC VIVE VR Set.
 
+# Step into your own world through the 360° green room
 
-# Stap zelf in je eigen wereld door middel van de 360 green room
-
-- Maak een opname van jezelf in de green room
-- Plaats het geheugenkaartje in de PC, en kopieer de video naar de HD
+- Make a recording of yourself in the green room
+- Insert the memory card in the PC, and copy the video to the HD
 - open adobe premiere pro
 
 ![alt text](images/workspacePremiereAanduiding.png)
 
 
-- media browser	: hier zijn je bestanden (video's) opgelijst. Drag & drop je videobestand hierin.
-- source pane	: hier worden je bestanden getoond die afgespeeld worden, en kan je effecten selecteren
-- program pane	: Hier worden de sequencies van je clips afgespeeld
-- timeline		: Hier verzamel je al je fragmenten
+- media browser	: your files (videos) are listed here. Drag & drop your video file here.
+- source pane	: here your files are shown that are being played, and you can select effects
+- program pane	: The sequences of your clips are played here
+- timeline	: Here you collect all your fragments
 
 
-Door in de de program pane op de play knop te drukken speel je je video in Adobe Premiere Pro af.
+By pressing the play button in the program pane you can play your video in Adobe Premiere Pro.
 
-![alt text](images/VRToggle.png) : Door op de VR toggle knop te klikken kan je de video in 360° bekijken.
+![alt text](images/VRToggle.png) : By clicking on the VR toggle button you can view the video in 360 °.
 
-Adobe Premiere Pro heeft enkele tools ter beschikking om je "green" uit je video te verwijderen. Te vinden in de effecten tab (onder video effects (media browser pane)). Er is zowel color key , als Ultra key. Ultra Key is degene die we gaan gebruiken.
-
+Adobe Premiere Pro has some tools available to remove your "green" from your video. Can be found in the effects tab (under video effects (media browser pane)). There is both color key and Ultra key. Ultra Key is the one we are going to use.
 
 ![alt text](images/keying.jpg)
 
-### Stappenplan om de Ultra key te gebruiken:
+### Step by Stp
 	
-	1. drag & drop de Ultra key op je video bestand van de timeline
-	2. Gan naar de effects control tab (in de source pane)
-	3. Gebruik de eyedropper tool om het groen te selecteren (test welk het beste resultaat geeft)
-	4. Gebruik de setting optie om je effect eventueel te vergroten
-	5. Speel met de matte Generation effecten tot je een degelijk resultaat krijgt.
+	1. drag & drop the Ultra key on your timeline video file
+	2. Go to the effects control tab (in the source pane)
+	3. Use the eyedropper tool to select the green (test which gives the best result)
+	4. Use the setting option to possibly increase your effect
+	5. Play with the matt Generation effects until you get a solid result.
 
 
 TIP:
 
-Je kan misschien een beter resultaat bekomen door slechts een deel van je 360° footage te gebruiken. Dit kan met behulp van een masker, en in dat masker dat je ultra key effect te gebruiken. Je kan zelfs meerdere maskers maken!
+You might get a better result by using only a part of your 360 ° footage. This can be done using a mask, and in that mask that you use ultra key effect. You can even make multiple masks!
 
-Hoe een "masker" maken:
+How to make a mask:
 https://helpx.adobe.com/premiere-pro/using/masking-tracking.html
 
-(Via cropping tool => filter > video > transform > cropping . Daarna left eigenschap gebruiken)
+Or:
+Via cropping tool => filter > video > transform > cropping . use left property
 
-Als je green key uit je footage is verwijderd dan drag en drop je je video van je wereld in de timeline (je green key video staat bovenaan), en test je de video in VR mode
+If your green key has been removed from your footage, drag and drop your video of your world into the timeline (your green key video is at the top), and test the video in VR mode.
 
 ![alt text](images/premiereTimeline.jpg)
 
-Daarna exporteer je je video en bekijk je deze in de GoProVR player met de HTC Vive VR set.
+Then you export your video and view it in the GoProVR player with the HTC Vive VR set.
 
 ![alt text](images/resultaat.PNG)
 
-# Spring van de reële wereld in de virtuele wereld
+# Jump from the real world into a virtual world
 
-Stappenplan Unity:
+Step by step with Unity:
 
-- Verwijder de standaard camera
-- Voeg SteamVR plugin toe (via asset store)
-- Voeg via steamvr > core >Prefabs > Player toe aan je scene
-- Maak een nieuw materiaal aan (rechtermuisknop scene > create material)
-    * De settings zijn:
-     - shader : skybox/Panaramic
-- Maak een nieuw texture aan (de afmetingen (dimensions) zijn dezelfde als die van je opgenomen film)
-- ga terug naar je material en sleep je texture erin
-- Maak in je scene een video player aan, en voeg je video eraan toe + sleep je texture naar de video player
-- Ga naar windows > rendering > lighting settings en het skybox materiaal moet nu je zelf gemaakte materiaal zijn.
-- Speel je unity scene af.
+- Remove the standard camera
+- Add SteamVR plugin (via asset store)
+- Add steamvr> core> Prefabs> Player to your scene
+- Create a new material (right mouse button scene> create material)
+    * The settings are:
+     - shader: skybox / Panaramic
+- Create a new texture (the dimensions are the same as those of your recorded film)
+- go back to your material and drag your texture into it
+- Create a video player in your scene, and add your video + drag your texture to the video player
+- Go to windows> rendering> lighting settings and the skybox material must now be your self-made material.
+- Play your unity scene.
 
 ## Input control
 
-Als je de controller gebruikt, kan je na vb. een klik van video veranderen. Op die manier spring je van de reële wereld in de virtuele wereld :-).
+If you use the controller, you can after eg. change video click. That way you jump from the real world into the virtual world :-).
 
-- Voeg een nieuw empty game object toe in de scene
-- voeg een nieuw "empty" script toe
-- dubbel klik op het script en copy paste onderstaande code:
+- Add a new empty game object in the scene
+- add a new "empty" script
+- double click on the script and copy paste the code below:
 
 ## Input Script
 
@@ -147,10 +146,10 @@ public class changeVideo : MonoBehaviour
 
 ```
 
-Daarna klik je op je empty object en stel je volgende settings in:
+Then click on your empty object and set the following settings:
 
 - Steam VR action: \actions\default\in\GrabPinch
-- Video: je video player
-- Hand : left hand o right hand van de player
+- Video: your video player
+- Hand : left hand or right hand of the player
 
 
